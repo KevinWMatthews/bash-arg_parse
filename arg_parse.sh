@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+#TODO add usage function/help
+
 echo "Demonstration of parsing arguments using pure bash"
 echo ""
 echo "Bash argument list ($#): $@"
