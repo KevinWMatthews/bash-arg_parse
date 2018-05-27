@@ -1,21 +1,9 @@
 #!/usr/bin/env bash
 
-# References:
-#   https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
-#   https://gist.github.com/jehiah/855086
-#
-#   Parameter substitution:
-#       https://www.tldp.org/LDP/abs/html/parameter-substitution.html
-#   Arrays:
-#       https://www.gnu.org/software/bash/manual/bashref.html#Arrays
-#       https://gist.github.com/magnetikonline/0ca47c893de6a380c87e4bdad6ae5cf7
-#   Shift built-in:
-#       http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_07.html
-#   Set built-in:
-#       https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html
-
-echo "Demonstration on parsing arguments using pure bash"
-echo "Args ($#): $@"
+echo "Demonstration of parsing arguments using pure bash"
+echo ""
+echo "Bash argument list ($#): $@"
+echo ""
 
 # $@        List of all arguments
 # $#        Number of arguments
@@ -80,9 +68,10 @@ echo "LONG_ARGUMENT_SPACE: ${LONG_ARGUMENT_SPACE}"
 echo "LONG_ARGUMENT_EQUAL: ${LONG_ARGUMENT_EQUAL}"
 echo "ARGUMENT: ${ARGUMENT}"
 echo "POSITIONAL: ${POSITIONAL[@]}"
+echo ""
 
 # Restore bash's arguments list from the array
 # The set builtin is complicated; there may be another way to do this.
 # array[@] expands to all elements of the array
 set -- "${POSITIONAL[@]}"
-echo "Args ($#): $@"
+echo "Bash argument list ($#): $@"
