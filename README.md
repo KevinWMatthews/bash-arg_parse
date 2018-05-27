@@ -69,9 +69,9 @@ Perhaps this is a flaw in the algorithm - reconsider in the future.
   * Parameter substitution
     - [tldp.org](https://www.tldp.org/LDP/abs/html/parameter-substitution.html)
   * Arrays
-    - [BashRef](https://www.gnu.org/software/bash/manual/bashref.html#Arrays)
-    - [Gitst Cheat-sheet](https://gist.github.com/magnetikonline/0ca47c893de6a380c87e4bdad6ae5cf7)
+    - [GNU Bash Manual](https://www.gnu.org/software/bash/manual/bashref.html#Arrays)
+    - [Cheatsheet Gist](https://gist.github.com/magnetikonline/0ca47c893de6a380c87e4bdad6ae5cf7)
   * Shift built-in
     - [tldp.org](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_07.html)
   * Set built-in
-    - [gnu manual](https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html)
+    - [GNU Bash Manual](https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html)
